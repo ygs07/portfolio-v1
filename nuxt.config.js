@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'portfolio',
+    title: 'Yusuf Shehu',
     htmlAttrs: {
       lang: 'en'
     },
@@ -52,6 +52,8 @@ export default {
     '@nuxtjs/tailwindcss'
 
   ],
+
+  pageTransition: "fade",
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
