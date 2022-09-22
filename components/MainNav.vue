@@ -1,12 +1,11 @@
 <template>
-  <div class="relative">
+  <div class="dark:bg-rich-black-500">
     <nav
       class="
-        sticky
-        top-0
         md:px-10
-        z-50
+        pb-3
         bg-cultured
+        rounded-b-2xl
         dark:bg-rich-black-500
         transition
         ease-in-out
@@ -14,8 +13,8 @@
         duration-300
         dark:shadow-lg
       "
-      :class="{ 'shadow-lg': scrolling_down }"
     >
+      <!-- :class="{ 'shadow-lg': scrolling_down }" -->
       <div class="md:p-5 md:pl-10 md:pr-10 pl-3 pr-3 text-white">
         <div class="flex justify-between items-center">
           <div class="pt-8">
@@ -69,8 +68,8 @@
               >
                 About Me
               </nuxt-link>
-              <nuxt-link
-                to="/services"
+              <a
+                href="/Resume.pdf"
                 class="
                   transition
                   ease-in-out
@@ -88,7 +87,7 @@
                 "
               >
                 CV
-              </nuxt-link>
+              </a>
               <button
                 class="
                   transition
@@ -117,7 +116,7 @@
                 <a href="mailto:yusufgshehu@gmail.com"> Get In Touch </a>
               </button>
             </div>
-            <div class="inline-block pt-2">
+            <div class="inline-block pt-2 ml-5">
               <label
                 for="toggleB"
                 class="flex items-center cursor-pointer pt-5"

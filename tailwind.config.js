@@ -100,7 +100,18 @@ module.exports = {
           800: "#642316",
           900: "#32110b"
 },
-      // 'white' : '#ffffff',
+       'white': {
+          100: "#ffffff",
+          200: "#ffffff",
+          300: "#ffffff",
+          400: "#ffffff",
+          500: "#ffffff",
+          600: "#cccccc",
+          700: "#999999",
+          800: "#666666",
+          900: "#333333"
+},
+      'platinum': '#EBEBEB',
       'gold': '#EFC69B',
       'burgandry': '#AF1B3F',
       'black': '#000000',
@@ -119,7 +130,8 @@ module.exports = {
           900: "#030108"
       },
       'han_purple': '#651DED',
-
+      'oxford_blue': '#0A192F',
+      'oxford_blue_two' : "#0c1a31",
       'russian_violet': {
           100: "#d1cdd7",
           200: "#a29bb0",

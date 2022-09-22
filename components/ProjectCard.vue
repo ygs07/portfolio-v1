@@ -57,7 +57,7 @@
               group-hover:shadow-lg
               shadow-md
               bg-white
-              dark:bg-rich-black-500
+              dark:bg-oxford_blue
               md:group-hover:-translate-x-5
               dark:border-rich-black-600
               group-hover:border-smoky_black-200
@@ -156,7 +156,9 @@
                 dark:ring-orange_soda-500 dark:text-orange_soda-500
               "
             >
-              <nuxt-link to="/"> Read More </nuxt-link>
+              <nuxt-link :to="'/projects/' + project.title">
+                Read More
+              </nuxt-link>
             </button>
           </div>
         </div>

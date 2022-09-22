@@ -1,5 +1,8 @@
 <template>
-  <div :class="{ dark: dark_mode_is_active }" class="scroll-smooth">
+  <div
+    :class="{ dark: dark_mode_is_active }"
+    class="scroll-smooth dark:bg-rich-black-500"
+  >
     <nav
       style="position: fixed; bottom: 0"
       class="md:hidden w-full z-50 flex p-4 justify-center"
@@ -8,14 +11,15 @@
         class="
           text-sm
           drop-shadow-2xl
-          py-2
+          py-4
           flex
           justify-evenly
           rounded-2xl
-          space-x-9
+          space-x-2
           w-full
           text-center
           bg-cultured
+          dark:bg-oxford_blue dark:text-cultured
         "
       >
         <div class="text-center">
@@ -59,7 +63,7 @@
         </div>
 
         <div class="text-center">
-          <nuxt-link to="/projects" class="">
+          <a href="/Resume.pdf" class="">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -76,7 +80,7 @@
             </svg>
 
             <span> Resume </span>
-          </nuxt-link>
+          </a>
         </div>
 
         <div class="text-center">
@@ -102,12 +106,13 @@
       </div>
     </nav>
     <main-nav
+      class="sticky top-0 z-50"
       :scrolling_down="scrolling_down"
       :dark_mode_is_on="dark_mode_is_active"
       @toggleDarkMode="toggleDarkMode()"
     >
     </main-nav>
-    <Nuxt />
+    <Nuxt class="relative dark:bg-rich-black-500" />
     <footer class="md:px-40 py-20 dark:bg-rich-black-600 dark:text-off-white">
       <!-- <div class="absolute w-full -left-1 -bottom-8 onl">
         <img src="waves-3.svg" class="w-full" />
@@ -198,18 +203,30 @@ export default {
       console.log("scrolling");
     },
   },
+  head() {
+    return {
+      title: "Yusuf Shehu",
+      meta: [
+        {
+          hid: "description",
+          name: "home a",
+          content: "My App Description",
+        },
+      ],
+    };
+  },
 };
 </script>
 
-<style>
+<style scoped>
 /* home route and active route will show in bold as it matches / and /about
 a.nuxt-link-active {
   font-weight: bold;
 }
 */
-/* exact link will show the primary color for only the exact matching link
+
 a.nuxt-link-exact-active {
-  color: #00c58e;
+  color: #f95738;
+  font-weight: 600;
 }
-*/
 </style>
