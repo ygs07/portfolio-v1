@@ -77,9 +77,7 @@
               md:text-2xl
             "
           >
-            <span class="font-bold text-6xl">
-              I develop apps for everyone.</span
-            >
+            <span class="font-bold text-6xl"> I build apps for the web.</span>
           </h2>
 
           <p
@@ -94,7 +92,7 @@
               mt-14
             "
           >
-            I’m a fullstack developer who enjoys vue, laravel and I also
+            I’m a fullstack developer. I enjoy vue and laravel, I also
             occasionally design.
           </p>
           <br />
@@ -140,7 +138,7 @@
           <!-- </div> -->
         </div>
 
-        <div class="flex justify-start pt-4 space-x-2">
+        <!-- <div class="flex justify-start pt-4 space-x-2">
           <a href="https://github.com/nuxt/nuxt.js" target="_blank"
             ><svg
               class="w-6 h-6 text-gray-600 hover:text-gray-800 button--github"
@@ -175,10 +173,10 @@
                 fill="currentColor"
               /></svg
           ></a>
-        </div>
+        </div> -->
         <div class="flex justify-start py-5 space-x-4">
-          <nuxt-link
-            to="/"
+          <a
+            href="mailto:yusufgshehu@gmail.com"
             class="
               px-6
               py-4
@@ -192,8 +190,8 @@
               dark:bg-off-white dark:text-rich-black-500
             "
           >
-            My Work
-          </nuxt-link>
+            Work with me
+          </a>
 
           <a
             href="#featured_projects"
@@ -215,7 +213,7 @@
             <button>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6"
+                class="h-6 w-6 mt-2"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
