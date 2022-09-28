@@ -41,6 +41,27 @@
             <span> Home </span>
           </nuxt-link>
         </div>
+
+        <div class="text-center">
+          <nuxt-link to="/about" class="">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6 m-auto"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
+              />
+            </svg>
+
+            <span> About </span>
+          </nuxt-link>
+        </div>
         <div class="text-center">
           <nuxt-link to="/projects" class="">
             <svg
@@ -61,7 +82,6 @@
             <span> Projects </span>
           </nuxt-link>
         </div>
-
         <div class="text-center">
           <a href="/Resume.pdf" class="">
             <svg
@@ -113,10 +133,7 @@
     >
     </main-nav>
     <Nuxt class="relative dark:bg-rich-black-500" />
-    <footer class="md:px-40 py-20 dark:bg-rich-black-600 dark:text-off-white">
-      <!-- <div class="absolute w-full -left-1 -bottom-8 onl">
-        <img src="waves-3.svg" class="w-full" />
-      </div> -->
+    <footer class="md:px-40 dark:bg-oxford_blue dark:text-off-white py-32">
       <div class="flex flex-col justify-center text-center z-20">
         <h1 class="text-4xl font-bold">Get In Touch</h1>
 

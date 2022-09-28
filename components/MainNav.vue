@@ -14,6 +14,12 @@
         dark:shadow-lg
       "
     >
+        <!-- border-b-indigo-500
+        dark:border-b-orange_soda-500
+        dark:bg-rich-black-500
+        border
+
+         -->
       <!-- :class="{ 'shadow-lg': scrolling_down }" -->
       <div class="md:p-5 md:pl-10 md:pr-10 pl-3 pr-3 text-white">
         <div class="flex justify-between items-center">
