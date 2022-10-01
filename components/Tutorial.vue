@@ -92,8 +92,8 @@
               mt-14
             "
           >
-            I’m a fullstack developer. I enjoy vue and laravel, I also
-            occasionally design.
+            I’m a fullstack developer. I enjoy vue and laravel, I also design
+            things.
           </p>
           <br />
           <p

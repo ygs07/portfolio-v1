@@ -110,7 +110,7 @@
               <p class="mt-1">Yusufgshehu@gmail.com</p>
             </div>
           </div>
-          <ul
+          <!-- <ul
             class="
               flex
               border-b
@@ -163,7 +163,7 @@
                 Personal
               </button>
             </li>
-          </ul>
+          </ul> -->
           <div
             v-show="personal_tab_is_active"
             class="transition duration-300 ease-in-out delay-150"
@@ -259,11 +259,17 @@
                   <li>Vue</li>
                   <li>Laravel</li>
                   <li>MySql</li>
+                  <li>TailWind</li>
                 </ul>
                 <ul class="list-disc">
-                  <li>Node JS</li>
+                  <li>AWS</li>
+                  <li>Nuxt JS</li>
                   <li>Mongo DB</li>
                   <li>Express JS</li>
+                </ul>
+                <ul class="list-disc">
+                  <li>Inertia JS</li>
+                  <li>Figma</li>
                 </ul>
               </div>
             </div>
