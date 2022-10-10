@@ -17,7 +17,7 @@
       <div class="flex flex-col justify-left md:space-y-5">
         <div class="pb-6">
           <nuxt-link
-            to="/projects"
+            :to="`${$nuxt.context.from.path}`"
             class="
               px-4
               py-2

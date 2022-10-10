@@ -338,16 +338,17 @@ export default {
         {
           title: "NUE Enroller",
           description:
-            "Schooltry is an innovative app that automates the whole schooling process for schools, parents, students and teachers.",
+            "This is a payment portal developed for The Nigerian National Association of Proprietors of Private Schools (NAPPS) for private schools in Nigeria to register for the National Unified Examination. ",
           img_src: "images/schooltry-logo.png",
-
+          url: "https://napps-enroller.withschooltry.com/",
           tags: ["Work", "WebApp", "MobileApp"],
         },
         {
           title: "NAPPS Dues",
+          url: "https://napps-dues.withschooltry.com/",
           description:
-            "Schooltry is an innovative app that automates the whole schooling process for schools, parents, students and teachers.",
-          img_src: "images/schooltry-logo.png",
+            "This is a payment portal for The Nigerian National Association of Proprietors of Private Schools (NAPPS), it is used by private schools in Nigeria to pay any outstanding fees for the National Unified Examination and upcoming National conferences being hosted by NAPPS",
+          img_src: "images/napps.png",
           tags: ["Work", "WebApp", "MobileApp"],
         },
       ],
