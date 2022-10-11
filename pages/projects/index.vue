@@ -113,7 +113,7 @@ export default {
           title: "NUE Enroller",
           date: "2020",
           description:
-            "Schooltry is an innovative app that automates the whole schooling process for schools, parents, students and teachers.",
+            "This is a payment portal developed for The Nigerian National Association of Proprietors of Private Schools (NAPPS) for private schools in Nigeria to register for the National Unified Examination",
           img_src: "images/schooltry-logo.png",
           row_reversed: false,
           tags: ["Work", "WebApp", "MobileApp"],
@@ -128,6 +128,16 @@ export default {
           img_src: "images/napps.png",
           tags: ["Work", "WebApp", "MobileApp"],
         },
+        // {
+        //   title: "Contactutors",
+        //   date: "2020",
+        //   description:
+        //     "Contactutors is a platform that helps people with teaching skills find tutoring jobs and also provides ",
+        //   img_src: "images/dr_screenshot.png",
+        //   row_reversed: false,
+        //   url: "https://digital-registry.gmchma.gm.gov.ng/",
+        //   tags: ["Personal", "WebApp"],
+        // },
         {
           title: "Recipelal",
           date: "2022",

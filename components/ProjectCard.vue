@@ -39,6 +39,7 @@
           <img
             :class="{
               'shadow-2xl': !project.details_coming_soon,
+              grayscale: project.details_coming_soon,
             }"
             class="w-full md:w-4/5 rounded-lg"
             :src="project.img_src"
@@ -48,7 +49,7 @@
       </div>
 
       <div class="relative w-full md:w-1/2">
-        <div class="md:absolute md:top-10 md:-left-20 w-full">
+        <div class="md:absolute md:-left-20 w-full">
           <div
             :class="{
               'md:group-hover:translate-x-5': row_reversed,

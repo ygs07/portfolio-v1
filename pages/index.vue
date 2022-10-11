@@ -108,7 +108,7 @@
       </div>
     </div>
 
-    <div
+    <!-- <div
       class="
         pb-52
         pt-20
@@ -263,7 +263,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
