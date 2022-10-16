@@ -114,7 +114,7 @@ export default {
           date: "2020",
           description:
             "This is a payment portal developed for The Nigerian National Association of Proprietors of Private Schools (NAPPS) for private schools in Nigeria to register for the National Unified Examination",
-          img_src: "images/schooltry-logo.png",
+          img_src: "images/nue_enroller.png",
           row_reversed: false,
           tags: ["Work", "WebApp", "MobileApp"],
         },
@@ -141,11 +141,12 @@ export default {
         {
           title: "Recipelal",
           date: "2022",
-          description:
-            "Also used by Gombe State government is a nation-wide database for used to identify and qualify poverty-stricken citizens in Gombe State and then qualify them for the healthcare services being offered to the poverty-stricken in Gombe State.   ",
+          details_coming_soon: true,
+
+          description: "More details will Be available soon...👨‍💻",
           img_src: "images/recipelal_screenshot.png",
           row_reversed: false,
-          url: "https://digital-registry.gmchma.gm.gov.ng/",
+          // url: "https://digital-registry.gmchma.gm.gov.ng/",
           tags: ["Personal", "WebApp"],
         },
         {
@@ -155,38 +156,40 @@ export default {
             "Iworks is a website for a design brand, it specializes in Graphics Design and web design. ",
           img_src: "images/iworks-screenshot.png",
           row_reversed: false,
-          url: "https://digital-registry.gmchma.gm.gov.ng/",
+          url: "https://funny-kitten-cf395b.netlify.app",
           tags: ["Personal", "WebApp"],
         },
         {
           title: "Kadverts",
           date: "2020",
-          description:
-            "Also used by Gombe State government is a nation-wide database for used to identify and qualify poverty-stricken citizens in Gombe State and then qualify them for the healthcare services being offered to the poverty-stricken in Gombe State.   ",
-          img_src: "images/dr_screenshot.png",
+          details_coming_soon: true,
+
+          description: "More details will Be available soon...👨‍💻",
+          // img_src: "images/dr_screenshot.png",
+          img_src: "images/code_screen.svg",
           row_reversed: false,
-          url: "https://digital-registry.gmchma.gm.gov.ng/",
+          // url: "https://digital-registry.gmchma.gm.gov.ng/",
           tags: ["Personal", "WebApp"],
         },
         {
           title: "Kadverts Coming Soon",
           date: "2019",
           description:
-            "Also used by Gombe State government is a nation-wide database for used to identify and qualify poverty-stricken citizens in Gombe State and then qualify them for the healthcare services being offered to the poverty-stricken in Gombe State.   ",
+            "This was built as a coming soon page for another project that I worked on. It has simple animations and a newsletter to notify people who were interested in the upcoming project. ",
           img_src: "images/kadverts-coming-soon.png",
           row_reversed: false,
-          url: "https://digital-registry.gmchma.gm.gov.ng/",
+          url: "https://kadverts.herokuapp.com/comingSoon",
           tags: ["Personal", "WebApp"],
         },
-        // {
-        //   title: "Kadverts Coming Soon",
-        //   description:
-        //     "Also used by Gombe State government is a nation-wide database for used to identify and qualify poverty-stricken citizens in Gombe State and then qualify them for the healthcare services being offered to the poverty-stricken in Gombe State.   ",
-        //   img_src: "images/dr_screenshot.png",
-        //   row_reversed: false,
-        //   url: "https://digital-registry.gmchma.gm.gov.ng/",
-        //   tags: ["Personal", "WebApp"],
-        // },
+        {
+          title: "CSDC",
+          description:
+            "A fullstack webapp built for a private security organization.",
+          img_src: "images/csdc_2.png",
+          row_reversed: false,
+          url: "https://csdcltd.com",
+          tags: ["Personal", "WebApp"],
+        },
       ],
     };
   },

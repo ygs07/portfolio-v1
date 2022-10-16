@@ -73,7 +73,7 @@
             "
           >
             <div class="py-4" :class="{ 'px-6': !project.details_coming_soon }">
-              <div class="mb-4 text-2xl font-bold dark:text-orange_soda-500">
+              <div class="mb-4 text-2xl font-bold dark:text-off-white">
                 {{ project.title }}
                 <br />
                 <span class="text-sm font-normal"> {{ project.date }} </span>
