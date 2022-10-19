@@ -83,7 +83,11 @@
           </nuxt-link>
         </div>
         <div class="text-center">
-          <a href="/Resume.pdf" target="_blank" class="">
+          <a
+            href="s3://www.inspireworks.com/Resume.pdf"
+            target="_blank"
+            class=""
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -154,7 +158,7 @@
               />
             </svg>
           </a>
-          <a class="" href="https://www.linkedin.com/in/yusuf-shehu-646a8016b/">
+          <a class="" href="https://www.linkedin.com/in/yusufshehu/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"

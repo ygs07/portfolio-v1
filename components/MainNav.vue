@@ -42,7 +42,7 @@
                   delay-50
                   duration-200
                   nav
-                  hover:ring-1
+                  hover:ring-1 hover:border
                   ring-offset-4
                   hover:ring-rich-black-500
                   dark:ring-deep_space_sparkle-100
@@ -60,6 +60,7 @@
                   transition
                   ease-in-out
                   delay-50
+                  hover:border
                   duration-200
                   nav
                   hover:ring-1
@@ -75,7 +76,7 @@
                 About Me
               </nuxt-link>
               <a
-                href="/Resume.pdf"
+                href="s3://www.inspireworks.com/Resume.pdf"
                 target="_blank"
                 class="
                   transition
@@ -83,7 +84,7 @@
                   delay-50
                   duration-200
                   nav
-                  hover:ring-1
+                  hover:border hover:ring-1
                   ring-offset-4
                   hover:ring-rich-black-500
                   dark:ring-deep_space_sparkle-100
@@ -104,7 +105,7 @@
                   md:visible
                   invisible
                   bg-transparent
-                  hover:bg-primary
+                  hover:border hover:bg-primary
                   text-primary
                   font-semibold
                   border-rich-black

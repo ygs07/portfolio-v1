@@ -359,7 +359,7 @@
       <div class="flex justify-start py-5 space-x-4">
         <a
           target="_blank"
-          href="/Resume.pdf"
+          href="s3://www.inspireworks.com/Resume.pdf"
           class="
             px-6
             py-4
