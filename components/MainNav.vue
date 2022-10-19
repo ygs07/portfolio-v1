@@ -14,7 +14,7 @@
         dark:shadow-lg
       "
     >
-        <!-- border-b-indigo-500
+      <!-- border-b-indigo-500
         dark:border-b-orange_soda-500
         dark:bg-rich-black-500
         border
@@ -76,6 +76,7 @@
               </nuxt-link>
               <a
                 href="/Resume.pdf"
+                target="_blank"
                 class="
                   transition
                   ease-in-out

@@ -83,7 +83,7 @@
           </nuxt-link>
         </div>
         <div class="text-center">
-          <a href="/Resume.pdf" class="">
+          <a href="/Resume.pdf" target="_blank" class="">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
