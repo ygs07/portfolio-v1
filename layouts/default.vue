@@ -84,7 +84,7 @@
         </div>
         <div class="text-center">
           <a
-            href="https://s3.us-east-2.amazonaws.com/www.inspireworks.com/Resume.pdf?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGcaCWV1LXdlc3QtMyJIMEYCIQDWd65h7a0R%2FhWSOAnZY%2FZh7eT5%2FdVYJEV3JeTIAnXpHQIhAMxx1kBAOuANCgamvDtmMdLnwlHHYTLHH%2Bzz8j1evON1KuQCCEAQAhoMNDg3NDU3NDIxMDExIgylgwOfffgUeKRK4hEqwQLpNNdhSFkixp5LBceXFCOxkvtRsO8Fk00RuVJkI2FhV3AikfWUVS993o1CuuzfB6SdiS9Ou10C4fXSO09nJDB%2Fk%2B1mWsItJPXukeUZ6QA9a5qi2NbioQ2mEhljdU8BJr649uNFzPMmzEDKiKXOukR8vlp3S6i8SR94oU3CMEXIlBN0L9spsV0ViFyuqQszU8DkoIGcSVkirg5JlNsv%2FU%2B5j%2FuIVkAdLfomtHj4jTZtYYk8k8GcMXyxqVUGQywY0fTBIlpdOAcoyJX8464d9Oe6QFxYiLmKHyyuyv%2BHpNveNM6N4Kmdv70xSMqoAPiNMvyED2OMngCTuD4SLp%2BPH3WamYjGTRji6tP3Aqcn2dJeK1lVdIwd7SGvux6PWURq9PauPTCSiNC03ReDWf9MgHvCwkiIFP4C11NzUQXBr2drAPQw%2Bpi%2BmgY6sgJNH7noEVkY0Io2NfE%2FBoPY5b3d6PpwKhB%2BmmdzPOQ%2BJGdKOhIeiK2GyVdhBOIHnFHrCWRjT7ScOJX86ZsZUizizGHo71ZmItbWG4uVPPB95S4kEYNzU8ekzVH2RRTk0PigADfOVKCaYlmX7KkGx6JaMH20rlOzGRUIsDtmmjVIw1EzI5juxmSj9F%2BzDLryB9ps5mPJAbFNdPlh8HLXPFJF4uMtGSYWOihpBquLqM8YQZsqZnwUA%2BAOeu4xu6vfmZYhcXNoq0ZWuADSC4YraMMyxrQbqpEYylYwuy96IBSrtpT6iAmz8RNVivGOflKFf9bZYQn9ej78cIBpMwg6gqP2xLYMRuv7SFuZXHiFw7DuEp8JYcrCXi5SBO7AEAT4jiDzTtB%2FbAznu8BteiNArTGpoYY%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20221019T121901Z&X-Amz-SignedHeaders=host&X-Amz-Expires=299&X-Amz-Credential=ASIAXC7VZ63J735DRQFV%2F20221019%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Signature=d9a209880f4155b665d05250ebdbac92e1129b9858ffda6fadb69782d1cc2762"
+            href="https://ys-portfolio-site.s3.eu-west-1.amazonaws.com/Resume.pdf"
             target="_blank"
             class=""
           >
