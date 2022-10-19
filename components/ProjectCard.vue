@@ -146,6 +146,7 @@
               <button
                 class="
                   mt-4
+                  border
                   px-3
                   py-3
                   transition

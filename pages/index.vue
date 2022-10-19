@@ -96,6 +96,7 @@
             duration-300
             dark:ring-offset-orange_soda-500
             ease-in-out
+            border
             delay-50
             rounded-lg
             ring-rich-black-500
