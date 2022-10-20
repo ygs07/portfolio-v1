@@ -37,13 +37,14 @@
           </h2>
 
           <p class="text-xl leading-9 dark:text-white-100">
-            I work with self-made designs and collaborating with designers to
-            build interactive, accessible and user friendly products. From
-            working with small scale local businesses to international scale
-            products like Schooltry, Schooltry Tertiary, GoHealth for the Gombe
-            State government and the National Digital Registry for Nigeria, I've
-            worked on, debugged, created and designed features and products used
-            by thousands in their daily lives and professional lives.
+            I work with self-made designs and also by collaborating with
+            designers to build interactive, accessible and user friendly
+            products. From working on small scale apps for local businesses to
+            larger scale international products like Schooltry, Schooltry
+            Tertiary, GoHealth for the Gombe State government and the National
+            Digital Registry for Nigeria, I've worked on, debugged, created and
+            designed features and products used by thousands in their daily
+            lives and professional lives.
           </p>
         </div>
       </div>
