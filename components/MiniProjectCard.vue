@@ -26,18 +26,18 @@
           <div class="flex flex-row justify-center space-x-32">
             <div
               class="
-                group-hover:ring-offset-0
+                group-hover:outline-offset-0
                 duration-300
                 ease-in-out
                 delay-50
-                transition
+                transition-all
                 p-6
-                ring ring-offset-4 ring-offset-cultured
-                dark:ring-offset-rich-black-500
+                outline outline-offset-4 outline-offset-cultured
+                dark:outline-offset-rich-black-500
                 rounded-full
                 bg-cultured
-                dark:bg-oxford_blue dark:ring-rich-black-500
-                ring-cultured
+                dark:bg-oxford_blue dark:outline-rich-black-500
+                outline-cultured
                 drop-shadow-lg
               "
             >
@@ -77,13 +77,13 @@
                       ease-in-out
                       delay-50
                       p-1
-                      transition
-                      ring ring-offset-4 ring-offset-cultured
-                      dark:ring-offset-rich-black-500
+                      transition-all
+                      outline outline-offset-4 outline-offset-cultured
+                      dark:outline-offset-rich-black-500
                       rounded-full
                       bg-cultured
-                      dark:bg-oxford_blue dark:ring-rich-black-500
-                      ring-cultured
+                      dark:bg-oxford_blue dark:outline-rich-black-500
+                      outline-cultured
                       drop-shadow-lg
                     "
                   >

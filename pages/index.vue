@@ -90,18 +90,18 @@
             mt-4
             px-3
             py-3
-            transition
-            ring-offset-2 ring-2
-            hover:ring-offset-0
+            transition-all
+            outline-offset-2 outline-2
+            hover:outline-offset-0
             duration-300
-            dark:ring-offset-orange_soda-500
+            dark:outline-offset-orange_soda-500
             ease-in-out
-            border
+            outline
             delay-50
             rounded-lg
-            ring-rich-black-500
+            outline-rich-black-500
             text-rich-black-500
-            dark:ring-orange_soda-500 dark:text-orange_soda-500
+            dark:outline-orange_soda-500 dark:text-orange_soda-500
           "
         >
           <nuxt-link to="/projects"> View Archives </nuxt-link>

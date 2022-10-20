@@ -280,10 +280,10 @@
             class="
               md:ml-5
               mt-20
-              ring ring-offset-4 ring-rich-black-500
-              dark:ring-orange_soda-300
-              group-hover:ring-offset-0
-              transition
+              outline outline-offset-4 outline-rich-black-500
+              dark:outline-orange_soda-300
+              group-hover:outline-offset-0
+              transition-all
               duration-300
               ease-in-out
               delay-150

@@ -37,16 +37,16 @@
               <nuxt-link
                 to="/projects"
                 class="
-                  transition
+                  transition-all
                   ease-in-out
                   delay-50
                   duration-200
                   nav
-                  hover:ring-1 hover:border
-                  ring-offset-4
-                  hover:ring-rich-black-500
-                  dark:ring-deep_space_sparkle-100
-                  hover:ring-offset-0
+                  hover:outline-1 hover:border
+                  outline-offset-4
+                  hover:outline-rich-black-500
+                  dark:outline-deep_space_sparkle-100
+                  hover:outline-offset-0
                   rounded
                   py-2
                   px-4
@@ -57,17 +57,17 @@
               <nuxt-link
                 to="/about"
                 class="
-                  transition
+                  transition-all
                   ease-in-out
                   delay-50
                   hover:border
                   duration-200
                   nav
-                  hover:ring-1
-                  ring-offset-4
-                  hover:ring-rich-black-500
-                  dark:ring-deep_space_sparkle-100
-                  hover:ring-offset-0
+                  hover:outline-1
+                  outline-offset-4
+                  hover:outline-rich-black-500
+                  dark:outline-deep_space_sparkle-100
+                  hover:outline-offset-0
                   rounded
                   py-2
                   px-4
@@ -79,16 +79,16 @@
                 href="https://ys-portfolio-site.s3.eu-west-1.amazonaws.com/Resume.pdf"
                 target="_blank"
                 class="
-                  transition
+                  transition-all
                   ease-in-out
                   delay-50
                   duration-200
                   nav
-                  hover:border hover:ring-1
-                  ring-offset-4
-                  hover:ring-rich-black-500
-                  dark:ring-deep_space_sparkle-100
-                  hover:ring-offset-0
+                  hover:border hover:outline-1
+                  outline-offset-4
+                  hover:outline-rich-black-500
+                  dark:outline-deep_space_sparkle-100
+                  hover:outline-offset-0
                   rounded
                   py-2
                   px-4

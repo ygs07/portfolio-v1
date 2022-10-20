@@ -76,6 +76,7 @@ export default {
           description:
             "Schooltry is an innovative app that automates the whole schooling process for schools, parents, students and teachers it also serves as the School mangement software for The Nigeria Army's Command Secondary Schools.",
           img_src: "images/schooltry_screenshot.png",
+          details_coming_soon: true,
           row_reversed: false,
           url: "https://www.schooltry.com/",
           tags: ["Work", "WebApp", "MobileApp"],
@@ -83,6 +84,7 @@ export default {
         {
           title: "GoHealth",
           date: "2021",
+          details_coming_soon: true,
           description:
             "Short for Gombe State Contributory Healthcare Management Scheme is a an webapp that provides that's used by Gombe State to provide reliable and innovative healthcare services to the citizens of Gombe state.",
           img_src: "images/Gohealth_screenshot.png",
@@ -93,6 +95,8 @@ export default {
         {
           title: "Digital Registry",
           date: "2022",
+          details_coming_soon: true,
+
           description:
             "Also used by Gombe State government is a nation-wide database for used to identify and qualify poverty-stricken citizens in Gombe State and then qualify them for the healthcare services being offered to the poverty-stricken in Gombe State.   ",
           img_src: "images/dr_screenshot.png",
@@ -112,6 +116,8 @@ export default {
         {
           title: "NUE Enroller",
           date: "2020",
+          details_coming_soon: true,
+
           description:
             "This is a payment portal developed for The Nigerian National Association of Proprietors of Private Schools (NAPPS) for private schools in Nigeria to register for the National Unified Examination",
           img_src: "images/nue_enroller.png",
@@ -121,6 +127,8 @@ export default {
         {
           title: "NAPPS Dues",
           date: "2020",
+          details_coming_soon: true,
+
           url: "https://napps-dues.withschooltry.com/",
           description:
             "This is a payment portal for The Nigerian National Association of Proprietors of Private Schools (NAPPS), it is used by private schools in Nigeria to pay any outstanding fees for the National Unified Examination and upcoming National conferences being hosted by NAPPS",
@@ -151,6 +159,8 @@ export default {
         },
         {
           title: "Iworks",
+          details_coming_soon: true,
+
           date: "2018",
           description:
             "Iworks is a website for a design brand, it specializes in Graphics Design and web design. ",
@@ -174,6 +184,8 @@ export default {
         {
           title: "Kadverts Coming Soon",
           date: "2019",
+          details_coming_soon: true,
+
           description:
             "This was built as a coming soon page for another project that I worked on. It has simple animations and a newsletter to notify people who were interested in the upcoming project. ",
           img_src: "images/kadverts-coming-soon.png",
@@ -183,6 +195,8 @@ export default {
         },
         {
           title: "CSDC",
+          details_coming_soon: true,
+
           description:
             "A fullstack webapp built for a private security organization.",
           img_src: "images/csdc_2.png",
