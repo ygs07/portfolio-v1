@@ -24,16 +24,31 @@
       <div class="md:p-5 md:pl-10 md:pr-10 pl-3 pr-3 text-white">
         <div class="flex justify-between items-center">
           <div class="pt-8">
-            <nuxt-link
-              to="/"
-              class="font-medium text-2xl dark:text-orange_soda-400"
-            >
-              Yusuf Shehu</nuxt-link
-            >
+            <p class="font-medium text-2xl dark:text-orange_soda-400">
+              Yusuf Shehu
+            </p>
           </div>
 
           <div class="flex text-lg text-black dark:text-off-white">
             <div class="hidden md:block pt-5 space-x-8">
+              <nuxt-link
+                to="/"
+                class="
+                  transition-all
+                  ease-in-out
+                  delay-50
+                  duration-200
+                  nav
+                  border-b-0 border border-t-0 border-r-0 border-l-0
+                  hover:border-b-2
+                  dark:outline-deep_space_sparkle-100
+                  rounded
+                  py-2
+                  px-4
+                "
+              >
+                Home
+              </nuxt-link>
               <nuxt-link
                 to="/projects"
                 class="
@@ -42,11 +57,9 @@
                   delay-50
                   duration-200
                   nav
-                  hover:outline-1 hover:border
-                  outline-offset-4
-                  hover:outline-rich-black-500
+                  border-b-0 border border-t-0 border-r-0 border-l-0
+                  hover:border-b-2
                   dark:outline-deep_space_sparkle-100
-                  hover:outline-offset-0
                   rounded
                   py-2
                   px-4
@@ -60,14 +73,11 @@
                   transition-all
                   ease-in-out
                   delay-50
-                  hover:border
                   duration-200
                   nav
-                  hover:outline-1
-                  outline-offset-4
-                  hover:outline-rich-black-500
+                  border-b-0 border border-t-0 border-r-0 border-l-0
+                  hover:border-b-2
                   dark:outline-deep_space_sparkle-100
-                  hover:outline-offset-0
                   rounded
                   py-2
                   px-4
@@ -84,11 +94,9 @@
                   delay-50
                   duration-200
                   nav
-                  hover:border hover:outline-1
-                  outline-offset-4
-                  hover:outline-rich-black-500
+                  border-b-0 border border-t-0 border-r-0 border-l-0
+                  hover:border-b-2
                   dark:outline-deep_space_sparkle-100
-                  hover:outline-offset-0
                   rounded
                   py-2
                   px-4
@@ -220,5 +228,19 @@ input:checked ~ .dot {
   transform: translateX(100%);
   /** background-color: #48bb78; **/
   background-color: #efc69b;
+}
+</style>
+
+<style scoped>
+/* home route and active route will show in bold as it matches / and /about
+a.nuxt-link-active {
+  font-weight: bold;
+}
+*/
+
+a.nuxt-link-exact-active {
+  color: #f95738;
+  font-weight: 600;
+  border-bottom-width: 4px;
 }
 </style>
