@@ -292,7 +292,7 @@ export default {
         {
           title: "Schooltry",
           description:
-            "Schooltry is an innovative app that automates the whole schooling process for schools, parents, students and teachers. Currently it is used as the School management software for The Nigeria Army's Command Secondary Schools and also curren",
+            "Schooltry is an innovative app that automates the whole schooling process for schools, parents, students and teachers. Currently it is used as the School management software for The Nigeria Army's Command Secondary Schools and also currently being used all across Africa.",
           img_src: "images/schooltry_screenshot.png",
           row_reversed: false,
           url: "https://www.schooltry.com/",
