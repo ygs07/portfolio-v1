@@ -2,7 +2,7 @@
   <div>
     <div
       class="
-        py-52
+        pt-24
         transition
         duration-300
         ease-in-out
@@ -12,24 +12,43 @@
         dark:bg-rich-black-500
       "
     >
-      <div class="flex justify-left md:space-x-10 md:space-y-5 px-4 md:px-20">
-        <h2
-          class="
-            text-left text-5xl
-            font-semibold
-            text-fire_opal-500
-            transition
-            duration-300
-            ease-in-out
-            delay-150
-            dark:text-orange_soda-500
-          "
-        >
-          // Projects
-        </h2>
+      <div class="flex flex-col justify-left px-4 md:px-20 pb-20">
+        <div class="md:w-2/3 flex flex-col">
+          <h2
+            class="
+              text-left text-3xl
+              md:text-5xl
+              font-semibold
+              text-fire_opal-500
+              transition
+              duration-300
+              ease-in-out
+              delay-150
+              pb-9
+              dark:text-orange_soda-500
+            "
+          >
+            <span class="text-smoky_black-500 dark:text-cambridge_blue-500"
+              >//</span
+            >About My Projects<span
+              class="text-smoky_black-500 dark:text-cambridge_blue-500"
+              >.</span
+            >
+          </h2>
+
+          <p class="text-xl leading-9 dark:text-white-100">
+            I work with self-made designs and collaborating with designers to
+            build interactive, accessible and user friendly products. From
+            working with small scale local businesses to international scale
+            products like Schooltry, Schooltry Tertiary, GoHealth for the Gombe
+            State government and the National Digital Registry for Nigeria, I've
+            worked on, debugged, created and designed features and products used
+            by thousands in their daily lives and professional lives.
+          </p>
+        </div>
       </div>
 
-      <div class="space-y-32">
+      <div class="space-y-32 justify-self-center">
         <project-card
           v-for="(project, index) in projects"
           :key="index"
@@ -108,7 +127,8 @@ export default {
           title: "Schooltry Tertiary",
           date: "2021",
           details_coming_soon: true,
-          // description: "Lorem ipsum text dorem",
+          description:
+            "A newer version of the schooltry app built for colleges and higher level educational settings. It is built with newer versions of the technologies used in schooltry including a payments system, a virtual classroom, a grading system and more.",
           row_reversed: false,
           img_src: "images/code_screen.svg",
           tags: ["Work", "WebApp", "MobileApp"],

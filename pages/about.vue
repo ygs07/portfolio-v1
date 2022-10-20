@@ -1,33 +1,4 @@
 <template>
-  <!-- <div
-    class="
-      py-52
-      transition
-      duration-300
-      ease-in-out
-      delay-150
-      bg-cultured
-      md:px-16
-      dark:bg-rich-black-600
-    "
-  >
-    <div class="flex justify-left md:space-x-10 md:space-y-5 px-4 md:px-20">
-      <h2
-        class="
-          text-left text-5xl
-          font-semibold
-          text-fire_opal-500
-          transition
-          duration-300
-          ease-in-out
-          delay-150
-          dark:text-orange_soda-500
-        "
-      >
-        // About me
-      </h2>
-    </div>
-  </div> -->
   <div
     class="
       relative
@@ -42,7 +13,7 @@
       md:items-center md:pb-52
       pt-24
       sm:pb-0
-      bg-off-white
+      bg-cambridge_blue-100
       dark:bg-rich-black-500 dark:text-off-white
     "
   >
@@ -66,7 +37,12 @@
               md:text-4xl
             "
           >
-            // About Me
+            <span class="text-smoky_black-500 dark:text-orange_soda-400"
+              >//</span
+            >
+            About Me<span class="text-smoky_black-500 dark:text-orange_soda-400"
+              >.</span
+            >
           </h2>
 
           <div class="pt-20 flex flex-wrap">

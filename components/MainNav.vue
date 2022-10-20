@@ -1,6 +1,7 @@
 <template>
   <div class="dark:bg-rich-black-500">
     <nav
+      :class="{ 'bg-cambridge_blue-100': $nuxt.$route.path == '/about' }"
       class="
         md:px-10
         pb-3
@@ -41,6 +42,7 @@
                   nav
                   border-b-0 border border-t-0 border-r-0 border-l-0
                   hover:border-b-2
+                  dark:border-cambridge_blue-500
                   dark:outline-deep_space_sparkle-100
                   rounded
                   py-2
@@ -59,6 +61,7 @@
                   nav
                   border-b-0 border border-t-0 border-r-0 border-l-0
                   hover:border-b-2
+                  dark:border-cambridge_blue-500
                   dark:outline-deep_space_sparkle-100
                   rounded
                   py-2
@@ -77,6 +80,7 @@
                   nav
                   border-b-0 border border-t-0 border-r-0 border-l-0
                   hover:border-b-2
+                  dark:border-cambridge_blue-500
                   dark:outline-deep_space_sparkle-100
                   rounded
                   py-2
@@ -96,6 +100,8 @@
                   nav
                   border-b-0 border border-t-0 border-r-0 border-l-0
                   hover:border-b-2
+                  dark:text-cambridge_blue-500
+                  dark:border-cambridge_blue-500
                   dark:outline-deep_space_sparkle-100
                   rounded
                   py-2
@@ -117,15 +123,15 @@
                   text-primary
                   font-semibold
                   border-rich-black
-                  dark:border-off-white
+                  dark:border-cambridge_blue-500
                   hover:-translate-y-1
                   hover:bg-dark_purple-400
                   hover:text-off-white
-                  dark:hover:bg-orange_soda-500 dark:hover:text-smoky_black-500
+                  dark:hover:bg-cambridge_blue-500
+                  dark:hover:text-smoky_black-500
                   py-2
                   px-4
                   border border-primary
-                  dark:hover:border-orange_soda-500
                   rounded-lg
                 "
               >
@@ -189,7 +195,7 @@
                 <div class="ml-3 text-gray-700 font-medium">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    :class="{ 'fill-gold': dark_mode_is_on }"
+                    :class="{ 'fill-cambridge_blue-500': dark_mode_is_on }"
                     class="h-5 w-5"
                     viewBox="0 0 20 20"
                     fill="currentColor"
@@ -227,7 +233,7 @@ export default {
 input:checked ~ .dot {
   transform: translateX(100%);
   /** background-color: #48bb78; **/
-  background-color: #efc69b;
+  background-color: #c0d0c1;
 }
 </style>
 

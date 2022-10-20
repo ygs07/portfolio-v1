@@ -35,7 +35,7 @@
         <path
           class="
             fill-indigo-200
-            dark:fill-orange_soda-700
+            dark:fill-cambridge_blue-800
             transition
             ease-in-out
             delay-150
@@ -180,6 +180,7 @@
               ease-in-out
               delay-150
               rounded-lg
+              dark:hover:bg-cambridge_blue-500
               bg-dark_purple-400
               text-off-white
               dark:bg-off-white dark:text-rich-black-500

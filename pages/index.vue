@@ -34,7 +34,13 @@
             dark:text-orange_soda-500
           "
         >
-          // Featured Projects
+          <span class="text-smoky_black-500 dark:text-cambridge_blue-500"
+            >//</span
+          >
+          Featured Projects<span
+            class="text-smoky_black-500 dark:text-cambridge_blue-500"
+            >...</span
+          >
         </h1>
       </div>
       <div class="space-y-32">
@@ -286,7 +292,7 @@ export default {
         {
           title: "Schooltry",
           description:
-            "Schooltry is an innovative app that automates the whole schooling process for schools, parents, students and teachers it also serves as the School mangement software for The Nigeria Army's Command Secondary Schools.",
+            "Schooltry is an innovative app that automates the whole schooling process for schools, parents, students and teachers. Currently it is used as the School management software for The Nigeria Army's Command Secondary Schools and also curren",
           img_src: "images/schooltry_screenshot.png",
           row_reversed: false,
           url: "https://www.schooltry.com/",
@@ -332,7 +338,8 @@ export default {
       other_projects: [
         {
           title: "Schooltry Tertiary",
-          description: "Lorem ipsum text dorem",
+          description:
+            "A newer version of the schooltry app built for colleges and higher level educational settings. It is built with newer versions of the technologies used in schooltry including a payments system, a virtual classroom, a grading system and more.",
           img_src: "images/schooltry-logo.png",
           tags: ["Work", "WebApp", "MobileApp"],
         },
