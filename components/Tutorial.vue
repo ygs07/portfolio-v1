@@ -180,6 +180,7 @@
               ease-in-out
               delay-150
               rounded-lg
+              hover:bg-indigo-400
               dark:hover:bg-cambridge_blue-500
               bg-dark_purple-400
               text-off-white
