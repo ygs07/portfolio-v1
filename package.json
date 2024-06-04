@@ -9,9 +9,10 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
     "core-js": "^3.19.3",
-    "nuxt": "^2.15.8",
-    "vue": "^2.6.14",
+    "vite": "^5.0.10",
+    "vue": "^3.3.12",
     "vue-server-renderer": "^2.6.14",
     "vue-template-compiler": "^2.6.14",
     "webpack": "^4.46.0"
@@ -20,6 +21,7 @@
     "@nuxt/postcss8": "^1.1.3",
     "@nuxtjs/tailwindcss": "^4.2.1",
     "autoprefixer": "^10.4.8",
+    "nuxt": "^3.8.2",
     "postcss": "^8.4.14",
     "tailwindcss": "^3.1.8"
   }
